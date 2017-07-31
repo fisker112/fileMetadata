@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>File Metadata service FCC</title>
+		<meta charset="utf-8" lang="en">
+		<meta name="description" content="File Metadata Service Free code camp">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="ady">
+	  <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-responsive.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <style>
+      body{
+        padding:50px;
+        margin:15px;
+        background-color: linen;
+      }
+      h1{
+        text-align:center
+      }      
+    </style>
+   </head>
+    <body>
+      <h1>
+        Meta Data service: Please upload your file to see its size.
+      </h1>
+      <form action="/fileupload" method="post" enctype="multipart/form-data">
+        <input type="file" name="data"><br><br>
+        <input type="submit">
+      </form>
+    </body>
+</html>
